@@ -2,14 +2,14 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+h1, h2, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +22,54 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#box-img {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#logo-web {
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+}
+
+#text-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.box-recipe {
+  margin: 3rem;
+}
+
+.secondP, .fourthP {
+  display: flex;
+  justify-content: center;
+}
+
+#recipe-photo, #cooking-photo {
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+}
+
+.thirdP {
+
+}
+
+#list {
+  padding-left: 1.5em;
+  list-style-type: none;
+}
+
+#directionList {
+  padding-left: 1.5em;
+}
